@@ -1,0 +1,60 @@
+{
+  "blocks": [
+    {
+      "id": 0,
+      "type": "Clock",
+      "x": 180.0,
+      "y": 310.0
+    },
+    {
+      "id": 1,
+      "type": "Sine",
+      "x": 410.0,
+      "y": 220.0,
+      "amplitude": 1.0,
+      "frequency": 1.0,
+      "phase": 0.0,
+      "bias": 0.0,
+      "sampleTime": 0.01
+    },
+    {
+      "id": 2,
+      "type": "Cosine",
+      "x": 410.0,
+      "y": 400.0,
+      "amplitude": 1.0,
+      "frequency": 1.0,
+      "phase": 0.0,
+      "bias": 0.0,
+      "sampleTime": 0.01
+    },
+    {
+      "id": 3,
+      "type": "Scope",
+      "x": 700.0,
+      "y": 310.0
+    }
+  ],
+  "connections": [
+    {
+      "sourceId": 0,
+      "targetId": 1,
+      "inputPort": 0
+    },
+    {
+      "sourceId": 0,
+      "targetId": 2,
+      "inputPort": 0
+    },
+    {
+      "sourceId": 1,
+      "targetId": 3,
+      "inputPort": 0
+    },
+    {
+      "sourceId": 2,
+      "targetId": 3,
+      "inputPort": 1
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+/* Custom Scrollbar & Liquid Glass Styling supporting Dark and Light themes */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* --- Dark Theme Scrollbars --- */
+.dark-theme .scroll-bar:vertical, 
+.dark-theme .scroll-bar:horizontal {
+    -fx-background-color: #1A1D24;
+}
+.dark-theme .scroll-bar:vertical .track, 
+.dark-theme .scroll-bar:horizontal .track {
+    -fx-background-color: #1A1D24;
+    -fx-border-color: #252C38;
+    -fx-background-radius: 6;
+}
+.dark-theme .scroll-bar:vertical .thumb, 
+.dark-theme .scroll-bar:horizontal .thumb {
+    -fx-background-color: #394455;
+    -fx-background-radius: 6;
+}
+.dark-theme .scroll-bar:vertical .thumb:hover, 
+.dark-theme .scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #4EA8FF;
+}
+.dark-theme .scroll-bar:vertical .thumb:pressed, 
+.dark-theme .scroll-bar:horizontal .thumb:pressed {
+    -fx-background-color: #2F80ED;
+}
+.dark-theme .corner {
+    -fx-background-color: #1A1D24;
+}
+
+/* --- Light Theme Scrollbars --- */
+.light-theme .scroll-bar:vertical, 
+.light-theme .scroll-bar:horizontal {
+    -fx-background-color: #F1F4F8;
+}
+.light-theme .scroll-bar:vertical .track, 
+.light-theme .scroll-bar:horizontal .track {
+    -fx-background-color: #F1F4F8;
+    -fx-border-color: #D6DEE8;
+    -fx-background-radius: 6;
+}
+.light-theme .scroll-bar:vertical .thumb, 
+.light-theme .scroll-bar:horizontal .thumb {
+    -fx-background-color: #C1C1C1;
+    -fx-background-radius: 6;
+}
+.light-theme .scroll-bar:vertical .thumb:hover, 
+.light-theme .scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: #2F80ED;
+}
+.light-theme .scroll-bar:vertical .thumb:pressed, 
+.light-theme .scroll-bar:horizontal .thumb:pressed {
+    -fx-background-color: #1A2230;
+}
+.light-theme .corner {
+    -fx-background-color: #F1F4F8;
+}
+
+/* Common scrollbar arrow button cleanup */
+.scroll-bar:vertical .decrement-button, .scroll-bar:vertical .increment-button,
+.scroll-bar:horizontal .decrement-button, .scroll-bar:horizontal .increment-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.scroll-bar:vertical .decrement-arrow, .scroll-bar:vertical .increment-arrow,
+.scroll-bar:horizontal .decrement-arrow, .scroll-bar:horizontal .increment-arrow {
+    -fx-shape: "";
+    -fx-padding: 0;
+}
+
+/* --- SplitPane Custom Docking Handles --- */
+.split-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.split-pane > .split-pane-divider {
+    -fx-padding: 2px;
+}
+.dark-theme .split-pane > .split-pane-divider {
+    -fx-background-color: #252C38;
+}
+.dark-theme .split-pane > .split-pane-divider:hover {
+    -fx-background-color: #4EA8FF;
+}
+.light-theme .split-pane > .split-pane-divider {
+    -fx-background-color: #D6DEE8;
+}
+.light-theme .split-pane > .split-pane-divider:hover {
+    -fx-background-color: #2F80ED;
+}
+
+/* --- Liquid Glass UI Components --- */
+.glass-panel {
+    -fx-background-color: rgba(37, 44, 56, 0.75);
+    -fx-background-radius: 12;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+    -fx-border-radius: 12;
+    -fx-border-width: 1;
+}
+
+.glass-card {
+    -fx-background-color: rgba(255, 255, 255, 0.04);
+    -fx-background-radius: 10;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+    -fx-border-radius: 10;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+.glass-card:hover {
+    -fx-background-color: rgba(78, 168, 255, 0.12);
+    -fx-border-color: #4EA8FF;
+}
+
+.glass-input {
+    -fx-background-color: #1A1D24;
+    -fx-text-fill: #F5F7FA;
+    -fx-prompt-text-fill: #A7B2C4;
+    -fx-border-color: #394455;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-family: 'Inter', 'Segoe UI', sans-serif;
+    -fx-font-size: 11px;
+}
+.glass-input:focused {
+    -fx-border-color: #4EA8FF;
+}
+
+.accordion-header {
+    -fx-background-color: rgba(255, 255, 255, 0.03);
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-padding: 6 10;
+}
+.accordion-header:hover {
+    -fx-background-color: rgba(78, 168, 255, 0.1);
+}
