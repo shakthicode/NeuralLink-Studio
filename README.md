@@ -5,7 +5,6 @@
 ![Maven](https://img.shields.io/badge/Build-Maven-red)
 ![JUnit](https://img.shields.io/badge/Test-JUnit%205-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 **IITM Assignment Edition** · a dual-engine, block-diagram signal simulator
 
@@ -35,7 +34,6 @@ to satisfy the IITM Assignment 1 brief for a Java/JavaFX + C++ modeling tool.
 - [Screenshots](#screenshots)
 - [Future improvements](#future-improvements)
 - [Contributing](#contributing)
-- [License](#license)
 - [Credits](#credits)
 
 ---
@@ -339,10 +337,6 @@ Contributions are welcome.
    git push origin feature-name
    ```
 5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Credits
 
